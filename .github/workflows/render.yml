@@ -27,6 +27,5 @@ jobs:
         with:
           commit_message: Added rendered mind map
           branch: ${{ github.head_ref }}
-          file_pattern: \*.png
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
