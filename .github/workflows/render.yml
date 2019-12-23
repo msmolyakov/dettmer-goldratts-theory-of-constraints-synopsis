@@ -24,7 +24,7 @@ jobs:
           args: "synopsis.puml"
       
       - name: Optimize image
-        uses: 9sako6/imgcmp@master
+        uses: docker://calibreapp/github-image-actions
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
