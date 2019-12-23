@@ -21,6 +21,9 @@ jobs:
         uses: lokkju/github-action-plantuml@v0.0.1
         with:
           args: "synopsis.puml"
+      
+      - name: Optimize image
+        uses: 9sako6/imgcmp@master
 
       - name: Commit rendered
         uses: stefanzweifel/git-auto-commit-action@v2.5.0
