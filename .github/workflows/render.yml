@@ -20,7 +20,7 @@ jobs:
       - name: Render PlantUML
         uses: lokkju/github-action-plantuml@v0.0.1
         with:
-          args: "synopsis.txt"
+          args: "synopsis.puml"
 
       - name: Commit rendered
         uses: stefanzweifel/git-auto-commit-action@v2.5.0
