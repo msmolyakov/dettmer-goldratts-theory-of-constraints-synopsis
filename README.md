@@ -8,4 +8,6 @@
 1. создать Pull Request в этот репозиторий;
 1. PNG-изображение будет обновлено автоматически в этом же PR.
 
+## Конспект
+
 ![Dettmer Goldratt's Theory of Constraints](synopsis.png)
